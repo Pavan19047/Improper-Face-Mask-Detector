@@ -1,0 +1,21 @@
+Metric,Haar Cascade,CNN (Our Model)
+Primary Function,Face Detection Only,Mask Classification
+Technology,Hand-crafted Features,Deep Learning
+Training Required,Pre-trained (No training needed),Requires Training
+Model Size,Small (~2MB),Medium (~9MB)
+Detection Accuracy,Good (~85-90%),Not Applicable
+Classification Accuracy,Not Applicable,0.917 (91.7%)
+Processing Speed (ms),23.19,81.02
+Memory Usage,Low (~10-50MB),High (~500MB-2GB)
+Computational Complexity,Low (O(n)),High (O(n²))
+Robustness to Lighting,Moderate,Good
+Robustness to Pose Variation,Poor,Good
+Real-time Performance,Excellent,Good
+Hardware Requirements,Low (CPU sufficient),Medium-High (GPU preferred)
+Implementation Difficulty,Easy,Moderate
+Scalability,Limited,Excellent
+False Positive Rate,Moderate,Low
+Multi-class Classification,No,Yes (3 classes)
+Training Data Dependency,None,High
+Interpretability,High,Low
+Maintenance Requirements,Low,High

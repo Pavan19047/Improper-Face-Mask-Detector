@@ -1,0 +1,11 @@
+Performance Metric,Haar Cascade,CNN Model
+Training Accuracy,Pre-trained,0.922 (92.2%)
+Validation Accuracy,N/A (Detection only),0.917 (91.7%)
+Precision (Weighted),N/A,0.928
+Recall (Weighted),N/A,0.917
+F1-Score (Weighted),N/A,0.922
+Training Time,No training required,9 epochs (~50 seconds)
+Inference Time per Image,23.19 ms,81.02 ms
+Model Parameters,Pre-defined features,"2,323,755 parameters"
+Dataset Size Used,N/A,"4,072 face images"
+Classes Detected,Face/No-Face (Binary),Mask/No-Mask/Incorrect (3-class)
